@@ -1,4 +1,4 @@
-# DSI Course for Bash, Git and GitHub
+# Building Research Software
 
 ## Contents:
 1. [Description](https://github.com/rachaellam/dsi-workshop#description)
@@ -10,20 +10,18 @@
 7. [Acknowledgements and Contributions](https://github.com/rachaellam/dsi-workshop#acknowledgements-and-contributions)
 
 ## Description:
-The course was created by the University of Toronto's Data Science Institute. The beginning of the course will introduce the basic language of Unix shell including how to navigate and manipulate files and directories. Learners will then learn certain commands, how to create scripts and write basic functions using pipes, filters and loops. 
-
-The next portion of the course will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
-
-Finally, learners will determine how to problem-solve by identifying where the issue is and how to search with Google and Stack Overflow. This will then lead to the topic of reproducibility and how to contribute by commenting code and writing documentation.
-
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
+Much research these days is done using software. Researchers need to develop a comfort with building, maintaining and improving high-quality software. This course focuses on equipping students with the skills to build robust software that can be used to answer research questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Research software that is built correctly can be used by other teams, not just the researcher who originally wrote it.
 
 ## Learning Outcomes
-Students will know how to...
-1. Access the terminal and write scripts using basic commands, variables, pipes, filters and loops. This will be assessed in Assignment 1.
-2. Use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors. This will be assessed in Assignment 2.
-3. Solve problems independently by identifying issues, researching, or properly formulating questions using components of reproducibility. This will be assessed in both Assignment 1 and Assignment 2.
-4. Synthesize all work within wider discussions of ethics and inequity. Students will actively scrutinize who is and isn't in our datasets and develop knowledge of past abuses of power to better engage their work with ethical considerations. This will be assessed in Assignment 2.
+Students will know how to:
+1. Learn how to work as a team within a Git/GitHub setting. Specifically, branching, merging, conflicts, and pull requests.
+2. Know how to create bug reports and prioritize requests.
+3. Develop a comfort with using makefiles and configuring programs.
+4. Proficiently test software, handle errors, and track provenance
+5. Know how to create Python packages.
+6. Acquire a comfort with calling APIs. 
+7. Develop comfort with Docker
+
 
 ## Logistics
 
