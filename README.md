@@ -106,3 +106,7 @@ Added photo labelled "git_commit.png" will be referenced in markdown file as `![
 ### Contributions 
 * `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
 issues](https://github.com/anjalisilva/bash-git-github/issues).
+
+## Additional Resources
+
+"You are never taught how to build quality software" via Hacker News https://news.ycombinator.com/item?id=38570261 
