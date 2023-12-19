@@ -1,12 +1,12 @@
 # Building Research Software
 
 ## Contents:
-1. [Description] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#description)
-2. [Learning Outcomes] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#learning-outcomes)
-3. [Logistics] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#logistics)
-4. [Marking Scheme] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#marking-scheme)
-5. [Policies] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#policies)
-6. [Folder Structure] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#folder-structure)
+1. [Description](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#logistics)
+4. [Marking Scheme](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#marking-scheme)
+5. [Policies](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#policies)
+6. [Folder Structure](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#folder-structure)
 7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#acknowledgements-and-contributions)
 
 ## Description:
@@ -41,13 +41,13 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 ### Lesson Schedule
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1]() | [Slides]() |
-| 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2]() | [Slides]() |
-| 3      | Automating Analyses with Make<br>(How to deal with multiple files and dependencies in a project)                 | [Assignment 3]() | [Slides]() |
-| 4      | Configuring Programs<br>(Introducing configuration files, and four different layers of configuration) | [Assignment 4]() | [Slides]() |
-| 5      | Testing Software<br>(Unit tests, continuous integration, Pytest, and more)                            | [Assignment 5]() | [Slides]() |
-| 6      | Handling Errors<br>(Writing useful error messages, types of errors, logging)                   | [Assignment 6]() | [Slides]() |
-| 7      | APIs<br>(Introducing APIs, best practices) | [Assignment 7]() | [Slides]() |
+| 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson1_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson1) |
+| 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson2_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson2) |
+| 3      | Automating Analyses with Make<br>(How to deal with multiple files and dependencies in a project)                 | [Assignment 3](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson3_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson3) |
+| 4      | Configuring Programs<br>(Introducing configuration files, and four different layers of configuration) | [Assignment 4](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson4_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson4) |
+| 5      | Testing Software<br>(Unit tests, continuous integration, Pytest, and more)                            | [Assignment 5](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson5_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson5) |
+| 6      | Handling Errors<br>(Writing useful error messages, types of errors, logging)                   | [Assignment 6](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson6_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson6) |
+| 7      | APIs<br>(Introducing APIs, best practices) | [Assignment 7]() | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson7) |
 
 
 ## Marking Scheme
