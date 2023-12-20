@@ -1,13 +1,13 @@
 # Building Software
 
 ## Contents:
-1. [Description](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#learning-outcomes)
-3. [Logistics](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#logistics)
-4. [Marking Scheme](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#marking-scheme)
-5. [Policies](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#policies)
-6. [Folder Structure](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#acknowledgements-and-contributions)
+1. [Description](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#logistics)
+4. [Marking Scheme](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#marking-scheme)
+5. [Policies](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#policies)
+6. [Folder Structure](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#folder-structure)
+7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#acknowledgements-and-contributions)
 
 ## Description:
 Much work these days is done using software. Analysts need to develop a comfort with building, maintaining, and improving high-quality software, even if they are not primarily employed as a software engineer or developer. This course focuses on equipping students with the skills to build robust software that can be used to answer questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Software that is built correctly can be used by other teams, not just the person who originally wrote it.
