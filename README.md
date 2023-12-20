@@ -1,4 +1,4 @@
-# Building Research Software
+# Building Software
 
 ## Contents:
 1. [Description](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#description)
