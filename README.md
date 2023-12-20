@@ -10,7 +10,7 @@
 7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#acknowledgements-and-contributions)
 
 ## Description:
-Much research these days is done using software. Researchers need to develop a comfort with building, maintaining and improving high-quality software. This course focuses on equipping students with the skills to build robust software that can be used to answer research questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Research software that is built correctly can be used by other teams, not just the researcher who originally wrote it.
+Much work these days is done using software. Analysts need to develop a comfort with building, maintaining, and improving high-quality software, even if they are not primarily employed as a software engineer or developer. This course focuses on equipping students with the skills to build robust software that can be used to answer questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Software that is built correctly can be used by other teams, not just the person who originally wrote it.
 
 ## Learning Outcomes
 Students will know how to:
@@ -80,12 +80,8 @@ pdf slides should be referenced before class to prepare or after class to review
 
 
 ## Acknowledgements and Contributions
-## Achnowledgements
-* Who helped make theses slides
-* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
+## Acknowledgements
+* Michaela Drouillard created the initial version of this course, under the guidance of Rohan Alexander.
 
 ## Additional Resources
 
