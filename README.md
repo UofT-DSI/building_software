@@ -1,16 +1,16 @@
-# Building Research Software
+# Building Software
 
 ## Contents:
-1. [Description] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#description)
-2. [Learning Outcomes] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#learning-outcomes)
-3. [Logistics] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#logistics)
-4. [Marking Scheme] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#marking-scheme)
-5. [Policies] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#policies)
-6. [Folder Structure] (https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/04-building_research_software?tab=readme-ov-file#acknowledgements-and-contributions)
+1. [Description](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#logistics)
+4. [Marking Scheme](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#marking-scheme)
+5. [Policies](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#policies)
+6. [Folder Structure](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#folder-structure)
+7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#acknowledgements-and-contributions)
 
 ## Description:
-Much research these days is done using software. Researchers need to develop a comfort with building, maintaining and improving high-quality software. This course focuses on equipping students with the skills to build robust software that can be used to answer research questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Research software that is built correctly can be used by other teams, not just the researcher who originally wrote it.
+Much work these days is done using software. Analysts need to develop a comfort with building, maintaining, and improving high-quality software, even if they are not primarily employed as a software engineer or developer. This course focuses on equipping students with the skills to build robust software that can be used to answer questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Software that is built correctly can be used by other teams, not just the person who originally wrote it.
 
 ## Learning Outcomes
 Students will know how to:
@@ -41,6 +41,7 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 ### Lesson Schedule
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
+<<<<<<< HEAD
 | 0      | Getting Started<br>(Introducing and installing git, anaconda, Python, bash)          |       |       |
 | 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1]() | [Slides]() |
 | 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2]() | [Slides]() |
@@ -49,6 +50,15 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 | 5      | Testing Software<br>(Unit tests, continuous integration, Pytest, and more)                            | [Assignment 5]() | [Slides]() |
 | 6      | Handling Errors<br>(Writing useful error messages, types of errors, logging)                   | [Assignment 6]() | [Slides]() |
 | 7      | APIs<br>(Introducing APIs, best practices) | [Assignment 7]() | [Slides]() |
+=======
+| 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson1_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson1) |
+| 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson2_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson2) |
+| 3      | Automating Analyses with Make<br>(How to deal with multiple files and dependencies in a project)                 | [Assignment 3](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson3_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson3) |
+| 4      | Configuring Programs<br>(Introducing configuration files, and four different layers of configuration) | [Assignment 4](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson4_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson4) |
+| 5      | Testing Software<br>(Unit tests, continuous integration, Pytest, and more)                            | [Assignment 5](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson5_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson5) |
+| 6      | Handling Errors<br>(Writing useful error messages, types of errors, logging)                   | [Assignment 6](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson6_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson6) |
+| 7      | APIs<br>(Introducing APIs, best practices) | [Assignment 7]() | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson7) |
+>>>>>>> 4709a186f22b042781a8dae020fa6413f3c58d40
 
 
 ## Marking Scheme
@@ -81,12 +91,8 @@ pdf slides should be referenced before class to prepare or after class to review
 
 
 ## Acknowledgements and Contributions
-## Achnowledgements
-* Who helped make theses slides
-* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
+## Acknowledgements
+* Michaela Drouillard created the initial version of this course, under the guidance of Rohan Alexander.
 
 ## Additional Resources
 
