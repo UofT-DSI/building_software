@@ -41,6 +41,7 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 ### Lesson Schedule
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
+| 0      | Getting Started<br>(Introducing and installing git, anaconda, Python, bash)          |       |       |
 | 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1]() | [Slides]() |
 | 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2]() | [Slides]() |
 | 3      | Automating Analyses with Make<br>(How to deal with multiple files and dependencies in a project)                 | [Assignment 3]() | [Slides]() |
