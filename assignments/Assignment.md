@@ -15,8 +15,10 @@ The deliverable, your package:
 
 During development, your team must:
 1. Track features using GitHub issues
+   1. Each constituent function of the `Analysis` module should be one or more issues
+   1. Each issue should be assigned to a member of your team
+   1. Your team should distribute workload evenly
 1. Make changes to the repository by forking the main repository, updating your fork, and merging your changes using pull requests
-
 
 ## Package API specifications
 #### `class yourteamrepo.Analysis(analysis_config:str)`
@@ -30,7 +32,7 @@ During development, your team must:
     * Default save path
 
 ##### `load_data()`
-* This function makes an HTTPS request to the GitHub API and retrieve your selected data
+* This function makes an HTTPS request to the GitHub API and retrieves your selected data
 
 ##### `compute_analysis() -> Any`
 * This function runs an analytical measure of your choice (mean, median, linear regression, etc...)
@@ -40,4 +42,36 @@ During development, your team must:
 * *Optional* if your team only has 3 members
 * This function generates a plot, display it to screen, and save it to the path in the parameter `save_path`, or the path from the configuration file if not specified
 * This function returns a matplotlib Figure handle
+
+
+## Usage example
+We should be able to use your package by running the following code on Colab.
+``` python
+!pip install https://github.com/user/yourteamrepo
+from yourteamrepo import Analysis
+
+analysis_obj = Analysis('config.yml')
+analysis_obj.load_data()
+
+analysis_output = compute_analysis()
+print(analysis_output)
+
+analysis_figure = analysis_obj.plot_data()
+```
+
+## Assessment
+You will be graded by whether you have demonstrated the following learning standards in the submitted work:
+* I can interpret and write simple YAML files 
+  * Demonstrated if the config files are in valid YAML
+* I can load YAML files into Python
+  * Demonstrated in `Analysis.__init__`
+* Given documentation, I can use a Python or HTTP API
+  * Demonstrated in `Analysis.load_data`
+* Given a function, I can write API documentation
+  * Demonstrated if your docstring is compliant with the numpy docstring specifications for the function you contributed
+* Given documentation, I can write Python class and function headers described by that documentation
+  * Demonstrated if the function you contributed meets the specifications above
+* I can catch and handle errors using `try`/`except`
+* I can write helpful error messages
+* I can use the Python logging library to control output from my code
 
