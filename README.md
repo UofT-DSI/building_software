@@ -1,7 +1,7 @@
 # Building Software
 
 ## Contents:
-1. [Description](/#description)
+1. [Description](#description)
 2. [Learning Outcomes](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#learning-outcomes)
 3. [Logistics](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#logistics)
 4. [Marking Scheme](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#marking-scheme)
