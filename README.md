@@ -26,10 +26,8 @@ Students will know how to:
 ## Logistics
 
 ### Course Contacts
-* Instructor: [**Name**] [Pronouns] [degree]. hyperlinked email
-  * Email etiquette
-  * Other comments 
-* TA: [**Name**] [pronouns] [degree]. hyperlinkedEmail
+* Instructor: Simeon M Wong, MHSc(BME). [simeonm.wong@mail.utoronto.ca](mailto:simeonm.wong@mail.utoronto.ca)
+* TA: Tong Su. [tong.su@mail.utoronto.ca](mailto:tong.su@mail.utoronto.ca)
 
 ### Delivery instructions
 The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
@@ -44,8 +42,7 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 | 0      | Getting Started<br>(Introducing and installing git, anaconda, Python, bash)          |       |[Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson0)       |
 | 1      | Working in Parallel <br>(Introducing git, branches and pull requests)       | [Assignment 1](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson1_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson1) |
 | 2      | Working in Teams<br>(Creating a culture of collaboration)                                            | [Assignment 2](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson2_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson2) |
-| 3      | Automating Analyses with Make<br>(How to deal with multiple files and dependencies in a project)                 | [Assignment 3](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson3_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson3) |
-| 3b*      | Creating Python Packages<br>(Creating, distributing, and hosting packages)                 | [Assignment 3](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson3b_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson3b)
+| 3      | Creating Python Packages<br>(Creating, distributing, and hosting packages)                 | [Assignment 3](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson3b_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson3b)
 | 4      | Configuring Programs<br>(Introducing configuration files, and four different layers of configuration) | [Assignment 4](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson4_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson4) |
 | 5      | Testing Software<br>(Unit tests, continuous integration, Pytest, and more)                            | [Assignment 5](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson5_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson5) |
 | 6      | Handling Errors<br>(Writing useful error messages, types of errors, logging)                   | [Assignment 6](https://github.com/UofT-DSI/04-building_research_software/blob/main/assignments/Lesson6_Assignment.md) | [Slides](https://github.com/UofT-DSI/04-building_research_software/tree/main/lessons/lesson6) |
@@ -55,12 +52,12 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 * Note that Lesson 3b is an option instead of Lesson 3, if students have issues with software installation.
 
 ## Marking Scheme
+
 | Assessment       | Weight | Description | Due Date |
 |------------------|--------|-------------|----------|
 | [Assignment 1]() |        |             |          |
 | [Assignment 2]() |        |             |          |
 | [Assignment 3]() |        |             |          |
-| [Assignment 3b]() |        |             |          |
 | [Assignment 4]() |        |             |          |
 | [Assignment 5]() |        |             |          |
 | [Assignment 6]() |        |             |          |
