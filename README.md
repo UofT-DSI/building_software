@@ -2,12 +2,12 @@
 
 ## Contents:
 1. [Description](#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#learning-outcomes)
-3. [Logistics](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#logistics)
-4. [Marking Scheme](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#marking-scheme)
-5. [Policies](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#policies)
-6. [Folder Structure](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/building_software?tab=readme-ov-file#acknowledgements-and-contributions)
+2. [Learning Outcomes](#learning-outcomes)
+3. [Logistics](#logistics)
+4. [Marking Scheme](#marking-scheme)
+5. [Policies](#policies)
+6. [Folder Structure](#folder-structure)
+7. [Acknowledgements and Contributions](#acknowledgements-and-contributions)
 
 ## Description:
 Much work these days is done using software. Analysts need to develop a comfort with building, maintaining, and improving high-quality software, even if they are not primarily employed as a software engineer or developer. This course focuses on equipping students with the skills to build robust software that can be used to answer questions. It focuses on how to effectively write short programs, as part of a small team, in a reproducible way. Software that is built correctly can be used by other teams, not just the person who originally wrote it.
@@ -67,6 +67,7 @@ pdf slides should be referenced after class for review. During class will be liv
 ## Acknowledgements and Contributions
 ## Acknowledgements
 * Michaela Drouillard created the initial version of this course, under the guidance of Rohan Alexander.
+* Revised by Simeon Wong for the Data Sciences Institute
 
 ## Additional Resources
 
