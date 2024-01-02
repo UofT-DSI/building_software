@@ -46,9 +46,3 @@ Exercise:
 - merge
 - github issues
 
-
-# Outcomes
-1. Given a project, I can 
-1. I can use Git command-line tools to initialize or clone a repository
-1. I can use Git command-line tools to make branches
-1. 
