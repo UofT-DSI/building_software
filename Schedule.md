@@ -5,19 +5,6 @@
 - APIs
 - Python modules revisited
 
-- Course assignment
-  - github plotter
-  - argparse
-  - configuration file
-    - what does it configure?
-  - issues
-  - GH project management
-  - merge with pull requests
-  - add / subtract / multiply / divide
-  - good comments
-  - documentation
-  - pytest
-
 
 ## Thurs Jan 4, 6 pm – 8:30 pm
 - Documentation
