@@ -17,3 +17,7 @@ To begin using Placeholder, follow these simple steps:
 1.  **Installation**: Download the Placeholder application from our website.
 2.  **Setup**: Follow the on-screen instructions to integrate Placeholder with your existing systems.
 3.  **Customization**: Tailor Placeholder's settings to suit your unique requirements.
+
+```
+pip install sphinx numpydoc myst-parser
+```
