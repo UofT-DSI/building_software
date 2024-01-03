@@ -7,7 +7,8 @@ The deliverable, your package:
 1. Must be installable using pip: `pip install https://github.com/user/yourteamrepo`
 1. Must include a module named `Analysis`
 1. Must include a README.md, LICENSE, and CONDUCT.md file
-1. Must include unit tests
+1. Must include unit tests, as appropriate
+1. Must include a TESTS.md file detailing in point-form the non-automated tests to be performed, as appropriate
 1. Must use the `logging` library to output debug, info, and error messages as appropriate
 1. Must be documented using Python docstrings in the numpy style
 1. Must use `try`/`except` and assertions to catch errors and must raise useful error messages
