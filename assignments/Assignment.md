@@ -11,7 +11,7 @@ The deliverable, your package:
 1. Must include a TESTS.md file detailing in point-form the non-automated tests to be performed, as appropriate
 1. Must use the `logging` library to output debug, info, and error messages as appropriate
 1. Must be documented using Python docstrings in the numpy style
-1. Must use `try`/`except` and assertions to catch errors and must raise useful error messages
+1. Must use `try`/`except` to handle errors, must raise useful error messages, and must include at least one assertion
     * Hint: We can't analyze data that has not yet been loaded! And consider incorrect configuration parameters!
 
 During development, your team must:
@@ -23,8 +23,24 @@ During development, your team must:
 
 ## Package API specifications
 #### `class yourteamrepo.Analysis(analysis_config:str)`
-* Load system-wide configuration from `system_config.yml`, user configuration from `user_config.yml`, and the specified analysis configuration file
-* The configuration files should include parameters for:
+```
+''' Load config into an Analysis object
+
+Load system-wide configuration from `system_config.yml`, user configuration from `user_config.yml`, and the specified analysis configuration file
+
+Parameters
+----------
+analysis_config : str
+    Path to the analysis/job-specific configuration file
+
+Returns
+-------
+analysis_obj : Analysis
+    Analysis object containing consolidated parameters from the configuration files
+
+Notes
+-----
+The configuration files should include parameters for:
     * GitHub API token
     * Plot color
     * Plot title
@@ -32,17 +48,64 @@ During development, your team must:
     * Figure size
     * Default save path
 
+'''
+```
+
 ##### `load_data()`
-* This function makes an HTTPS request to the GitHub API and retrieves your selected data
+```
+''' Retrieve data from the GitHub API
+
+This function makes an HTTPS request to the GitHub API and retrieves your selected data. The data is
+stored in the Analysis object.
+
+Parameters
+----------
+None
+
+Returns
+-------
+None
+
+'''
+```
 
 ##### `compute_analysis() -> Any`
-* This function runs an analytical measure of your choice (mean, median, linear regression, etc...)
-* This function returns the data in a format of your choice
+```
+'''Analyze previously-loaded data.
+
+This function runs an analytical measure of your choice (mean, median, linear regression, etc...)
+and returns the data in a format of your choice.
+
+Parameters
+----------
+None
+
+Returns
+-------
+analysis_output : Any
+
+'''
+```
 
 ##### `plot_data(save_path:Optional[str] = None) -> matplotlib.Figure`
 * *Optional* if your team only has 3 members
-* This function generates a plot, display it to screen, and save it to the path in the parameter `save_path`, or the path from the configuration file if not specified
-* This function returns a matplotlib Figure handle
+```
+''' Analyze and plot data
+
+Generates a plot, display it to screen, and save it to the path in the parameter `save_path`, or 
+the path from the configuration file if not specified.
+
+Parameters
+----------
+save_path : str, optional
+    Save path for the generated figure
+
+Returns
+-------
+fig : matplotlib.Figure
+
+'''
+```
 
 
 ## Usage example
@@ -76,3 +139,14 @@ You will be graded by whether you have demonstrated the following learning stand
 * I can write helpful error messages
 * I can use the Python logging library to control output from my code
 
+## A list of other APIs you can consider
+* [New York Times Article Search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
+    * Trends for articles about specific topics (eg. climate change)
+* [Spotify API](https://developer.spotify.com/documentation/web-api)
+    * Popular artists, albums, and tracks
+    * *Advanced*: Collaborations between top artists
+* [OpenAI's Embeddings API](https://platform.openai.com/docs/guides/embeddings)
+    * Cluster text from a book, reviews text, rule book, etc..
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+    * Open-source datasets on a variety of topics
+    * Make sure you are pulling data live from the Kaggle API, not downloading it first
