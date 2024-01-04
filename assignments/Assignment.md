@@ -137,7 +137,12 @@ You will be graded by whether you have demonstrated the following learning stand
   * Demonstrated if the function you contributed meets the specifications above
 * I can catch and handle errors using `try`/`except`
 * I can write helpful error messages
-* I can use the Python logging library to control output from my code
+* I can use the Python `logging` library to control output from my code
+* I can write unit tests and integration tests using `pytest`
+  * Demonstrated by associated unit tests for your designated function
+* I can write a basic `setup.py` configuration file for `setuptools`
+* I can install a package from GitHub using `pip`
+
 
 ## A list of other APIs you can consider
 * [New York Times Article Search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
