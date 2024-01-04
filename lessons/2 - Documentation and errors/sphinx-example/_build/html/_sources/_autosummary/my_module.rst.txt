@@ -1,0 +1,29 @@
+﻿my\_module
+==========
+
+.. automodule:: my_module
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      my_module
+   
+   
+
+   
+   
+   
+
+
+

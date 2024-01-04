@@ -1,0 +1,5 @@
+# from city of toronto open data portal
+dataset_url: https://github.com/UofT-DSI/03-python/raw/main/data/neighbourhood-profiles-2016-140-model.csv
+cols_to_plot: 
+  x: 'Renter'
+  y: 'Owner'
