@@ -12,7 +12,7 @@ Then, run this code in a Colab cell to enable push/pull from GitHub
 import os
 from google.colab import userdata
 token = userdata.get("ghtoken")
-cmd = f'git config --global url."https://api:{token}@github.com".insteadOf "https://github.com"'
+cmd = f'git config --global url."https://api:{token}@github.com/".insteadOf "https://github.com/"'
 os.system(cmd)
 
 ```
