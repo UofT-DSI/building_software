@@ -4,7 +4,7 @@ By the end of this course, you will build an installable Python package that ana
 ## Requirements
 The deliverable, your package:
 1. Must be hosted on a GitHub repository.
-1. Must be installable using pip: `pip install https://github.com/user/yourteamrepo`
+1. Must be installable using pip: `pip install git+https://github.com/user/yourteamrepo`
 1. Must include a module named `Analysis`
 1. Must include a README.md, LICENSE, and CONDUCT.md file
 1. Must include unit tests, as appropriate
@@ -111,7 +111,7 @@ fig : matplotlib.Figure
 ## Usage example
 We should be able to use your package by running the following code on Colab.
 ``` python
-!pip install https://github.com/user/yourteamrepo
+!pip install git+https://github.com/user/yourteamrepo
 from yourteamrepo import Analysis
 
 analysis_obj = Analysis('config.yml')
