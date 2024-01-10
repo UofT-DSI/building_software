@@ -22,11 +22,11 @@ During development, your team must:
 1. Make changes to the repository by forking the main repository, updating your fork, and merging your changes using pull requests
 
 ## Package API specifications
-#### `class yourteamrepo.Analysis(analysis_config:str)`
+#### `class yourteamrepo.Analysis.Analysis(analysis_config:str)`
 ```
 ''' Load config into an Analysis object
 
-Load system-wide configuration from `system_config.yml`, user configuration from `user_config.yml`, and the specified analysis configuration file
+Load system-wide configuration from `configs/system_config.yml`, user configuration from `configs/user_config.yml`, and the specified analysis configuration file
 
 Parameters
 ----------
@@ -114,10 +114,10 @@ We should be able to use your package by running the following code on Colab.
 !pip install git+https://github.com/user/yourteamrepo
 from yourteamrepo import Analysis
 
-analysis_obj = Analysis('config.yml')
+analysis_obj = Analysis.Analysis('config.yml')
 analysis_obj.load_data()
 
-analysis_output = compute_analysis()
+analysis_output = analysis_obj.compute_analysis()
 print(analysis_output)
 
 analysis_figure = analysis_obj.plot_data()
