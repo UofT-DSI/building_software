@@ -5,4 +5,5 @@ setup(
     version='0.1.0',
     author='Simeon Wong',
     packages=['mypackage'],
+    install_requires=['requests', 'matplotlib']
 )
