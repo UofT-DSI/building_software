@@ -26,7 +26,8 @@ During development, your team must:
 ```
 ''' Load config into an Analysis object
 
-Load system-wide configuration from `configs/system_config.yml`, user configuration from `configs/user_config.yml`, and the specified analysis configuration file
+Load system-wide configuration from `configs/system_config.yml`, user configuration from
+`configs/user_config.yml`, and the specified analysis configuration file
 
 Parameters
 ----------
