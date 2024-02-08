@@ -89,7 +89,7 @@ analysis_output : Any
 ```
 
 ##### `notify_done(message: str) -> None`
-```python
+```
 ''' Notify the user that analysis is complete.
 
 Send a notification to the user through the ntfy.sh webpush service.
