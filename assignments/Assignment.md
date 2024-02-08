@@ -88,6 +88,24 @@ analysis_output : Any
 '''
 ```
 
+##### `notify_done(message: str) -> None`
+```
+''' Notify the user that analysis is complete.
+
+Send a notification to the user through the ntfy.sh webpush service.
+
+Parameters
+----------
+message : str
+  Text of the notification to send
+
+Returns
+-------
+None
+
+'''
+```
+
 ##### `plot_data(save_path:Optional[str] = None) -> matplotlib.Figure`
 * *Optional* if your team only has 3 members
 ```
