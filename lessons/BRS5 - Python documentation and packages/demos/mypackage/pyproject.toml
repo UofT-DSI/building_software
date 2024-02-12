@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+authors = [
+    {name = "Simeon Wong", email = "simeon.wong@mail.utoronto.ca"},
+]
+description = "A very basic Python package"
+version = "0.1.0"
+dependencies = ["matplotlib", "numpy"]
+requires-python = ">=3.10.0"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]

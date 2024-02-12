@@ -1,4 +1,4 @@
-# Building Software Summative Assignment
+# Building Robust Software Summative Assignment
 By the end of this course, you will build an installable Python package that analyzes data retrieved from the GitHub API (or another web data provider of your choice). You'll work in teams and collaborate using tools on GitHub.
 
 ## Requirements
@@ -43,6 +43,7 @@ Notes
 -----
 The configuration files should include parameters for:
     * GitHub API token
+    * ntfy.sh topic
     * Plot color
     * Plot title
     * Plot x and y axis titles
