@@ -43,6 +43,7 @@ Notes
 -----
 The configuration files should include parameters for:
     * GitHub API token
+    * ntfy.sh topic
     * Plot color
     * Plot title
     * Plot x and y axis titles

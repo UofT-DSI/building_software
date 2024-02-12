@@ -1,4 +1,4 @@
-# Building Software Homework 1
+# Building Robust Software Homework 1
 
 ## Task 1
 * Convert code from your Python Assignment 2 (Pandas and Visualization) into a Python *script*
@@ -76,3 +76,6 @@ df.groupby(config['group_col'])
 ## Task 7
 * Commit your changes
 * Push to GitHub
+
+## Submission
+Paste in your repository URL into a Google Doc in your submission folder. Indicate in the document that you completed Homework 1.

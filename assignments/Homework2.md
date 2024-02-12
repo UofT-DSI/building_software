@@ -1,4 +1,4 @@
-# Building Software Homework 2
+# Building Robust Software Homework 2
 
 ## Task 1: Errors
 Open the script you created in Building Software Homework 1 (the script version of Python Assignment 2)
@@ -32,6 +32,12 @@ logging.basicConfig(
     level=logging_level, 
     handlers=[logging.StreamHandler(), logging.FileHandler('my_python_analysis.log')],
 )
+
+######## elsewhere in your code ########
+logging.info('Message')
+
 ```
 
+## Submission
+Paste in your repository URL into a Google Doc in your submission folder. Indicate in the document that you completed Homework 2.
 
