@@ -165,6 +165,12 @@ You will be graded by whether you have demonstrated the following learning stand
 
 
 ## A list of other APIs you can consider
+* [Pokemon data API](https://pokeapi.co/)
+    * Comprehensive database of Pokemon information, abilities, etc..
+* [Marvel API](https://developer.marvel.com/)
+    * Retrieve information about comics, characters, events, series, etc. for all published Marvel Universe comics and movies
+* [NASA Open Data API](https://api.nasa.gov/index.html)
+    * Datasets from NASA missions, including near Earth object tracking, weather on Mars, etc..
 * [New York Times Article Search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
     * Trends for articles about specific topics (eg. climate change)
 * [Spotify API](https://developer.spotify.com/documentation/web-api)
