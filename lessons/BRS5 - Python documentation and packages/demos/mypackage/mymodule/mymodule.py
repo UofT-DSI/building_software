@@ -1,3 +1,0 @@
-def myfunction():
-    pass
-

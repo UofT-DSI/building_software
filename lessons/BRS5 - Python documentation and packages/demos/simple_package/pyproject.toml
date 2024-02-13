@@ -1,9 +1,9 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
-name = "mypackage"
+name = "mymodule"
 authors = [
     {name = "Simeon Wong", email = "simeon.wong@mail.utoronto.ca"},
 ]
@@ -15,3 +15,6 @@ readme = "README.md"
 classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
+
+[project.scripts]
+myhelloworld = "mymodule:hello_world"
