@@ -24,10 +24,11 @@ class Analysis():
         self.config = config
 
     def load_data(self) -> None:
-        print(self.config['figure_title'])
+        data = requests.get('/url/to/data').json()
+        self.dataset = data
 
     def compute_analysis(self) -> Any:
-        pass
+        return self.dataset.mean() 
 
     def plot_data(self, save_path: Optional[str] = None) -> plt.Figure:
         pass
