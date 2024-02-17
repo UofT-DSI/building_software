@@ -160,7 +160,7 @@ You will be graded by whether you have demonstrated the following learning stand
 * I can use the Python `logging` library to control output from my code
 * I can write unit tests and integration tests using `pytest`
   * Demonstrated by associated unit tests for your designated function
-* I can write a basic `setup.py` configuration file for `setuptools`
+* I can write a basic `pyproject.toml` configuration file for `hatchling` or `setuptools`
 * I can install a package from GitHub using `pip`
 
 
