@@ -134,7 +134,7 @@ We should be able to use your package by running the following code on Colab.
 !pip install git+https://github.com/user/yourteamrepo
 from yourteamrepo import Analysis
 
-analysis_obj = Analysis.Analysis('config.yml')
+analysis_obj = Analysis('config.yml')
 analysis_obj.load_data()
 
 analysis_output = analysis_obj.compute_analysis()
